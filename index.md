@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+## Rust & Go or Somthing fun.
+![just for fun](https://pbs.twimg.com/media/F-RZVcXXYAAv-UA?format=jpg&name=medium)
