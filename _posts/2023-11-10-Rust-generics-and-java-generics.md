@@ -1,7 +1,7 @@
-## 前言
+# 前言
 在Rust中，泛型也会被删除。但两者的泛型仍然是不同的。
 
-## Java泛型
+# Java泛型
 在Java中，类的实例都是对象，并且每个对象都继承自`Object`。例如，如果你有一个Object数组，你可以在集合中存储任何内容。
 ```java
 public class Container {
@@ -54,7 +54,7 @@ void foobar<T>(coll: Collection<T>) {
 
 如果在没有类型信息的情况下传递到其他地方，是不可能找到T是什么。
 
-## Rust泛型
+# Rust泛型
 在Rust中，类型也会被擦除。
 ```rust
 struct Container<T> {
@@ -132,7 +132,7 @@ fn main() {
 单态化的一个特点是会增加二进制大小，但有利于内联。
 
 
-## 总结
+# 总结
 
 Java和Rust都做泛型擦除，但是....
 
