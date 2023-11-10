@@ -39,8 +39,10 @@ error: cannot find symbol
 
 因此，Java的泛型是不让你做某些事情。
 
+![img](https://fasterthanli.me/static/img/rust-vs-java-generics/boxing.29acd1cd4d10ea59.png)
+
 ```java
-void foobar<T>(coll: Collection<T>) {
+void foobar<T>(Collection<T> coll) {
     // there is *no way* to know about T at runtime.
     // the compiler only wants to enforce that we use
     // coll correctly, but we cannot, for example, create
